@@ -8,19 +8,21 @@ header {
   width: 100px;
   padding: 20px 0;
   /* paddingではautoは使用できない */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
 }
 
-nav {
+/* nav {
   border-top: thin solid gray;
   border-bottom: thin solid gray;
-}
+} */
 
 .nav-list {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  border-top: thin solid gray;
+  border-bottom: thin solid gray;
 }
 
 .nav-list-item {
@@ -30,9 +32,11 @@ nav {
 }
 
 .main-visual {
-  padding: 50px 0;
-  margin: 0 auto;
+  /* padding: 50px 0;
+  margin: 0 auto; */
+  margin: 50px auto;
 }
+/* wrapとwidthによる横幅の指定により、自動的に４つごとに四角が下の行に移動するよう入力すると、コードが見やすく入力も楽。classも少なくて済む */
 
 .main-visual-top {
   display: flex;
