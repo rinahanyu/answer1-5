@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100px;
+  padding: 20px 0;
+  /* paddingではautoは使用できない */
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  border-top: thin solid gray;
+  border-bottom: thin solid gray;
+}
+
+.nav-list {
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main-visual {
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.main-visual-top {
+  display: flex;
+  justify-content: center;
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.four {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.main-visual-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.five {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.six {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.seven {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.eight {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.main-visual-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.nine {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.ten {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.eleven {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.twelve {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background-color: gray;
+  line-height: 120px;
+}
+
+footer p {
+  color: white;
+}
